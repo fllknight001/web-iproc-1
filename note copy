@@ -1,0 +1,772 @@
+<section class="homepage">
+  <div class="background">
+      <img src="IMG/background.png" alt="">
+  </div>
+  <div class="navbar">
+
+      <nav>
+        <div class="logo">
+          <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+              <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                  <img src="IMG/Iproc.png" class="h-9" alt="Iproc Logo" />
+                  <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white"></span>
+              </a>
+              </div>
+        </div>
+        
+       
+       
+       <div class="languege">
+          <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse p-96">
+              <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                <svg class="w-5 h-10 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
+                <p class="hidden md:flex md:items-center md:w-auto space-x-6">English (US)</p>
+              </button>
+              <!-- Dropdown -->
+              <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700" id="language-dropdown-menu">
+                <ul class="py-2 font-medium" role="none">
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg aria-hidden="true" class="h-10 w-5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512"><g fill-rule="evenodd"><g stroke-width="1pt"><path fill="#bd3d44" d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/><path fill="#fff" d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/></g><path fill="#192f5d" d="M0 0h98.8v70H0z" transform="scale(3.9385)"/><path fill="#fff" d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z" transform="scale(3.9385)"/></g></svg>              
+                       <p>English (US)</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg class="h-10 w-5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512"><path fill="#ffce00" d="M0 341.3h512V512H0z"/><path d="M0 0h512v170.7H0z"/><path fill="#d00" d="M0 170.7h512v170.6H0z"/></svg>
+                       
+                        <p>Deutsch</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg class="h-10 w-5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512"><g fill-rule="evenodd" stroke-width="1pt"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#009246" d="M0 0h170.7v512H0z"/><path fill="#ce2b37" d="M341.3 0H512v512H341.3z"/></g></svg>              
+                
+                        <p >Italiano</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg class="h-10 w-5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn" viewBox="0 0 512 512"><defs><path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z"/></defs><path fill="#de2910" d="M0 0h512v512H0z"/><use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a"/><use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a"/></svg>
+                        
+                        <p >中文 (繁體)</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+       </div>
+              
+              </div>
+              <div class="section-button">
+                  <button type="button" class="hidden md:flex md:items-center md:w-auto space-x-6 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ">Contact Us</button>
+                  </button>
+          </div>
+          <div class="hamburger-button">
+            <div class="md:hidden flex items-center">
+              <button id="menu-btn" class="text-gray-700 focus:outline-none">
+                <!-- Hamburger Icon -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                </svg>
+              </button>
+          </div>
+        <div class="sub-navbar">
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
+            <ul class="flex flex-col font-medium p-4 md:p-10 mt-4 border  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md: dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About us</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Features</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Industries</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Customer story</a>
+              </li>
+              <li>
+                  <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                </li>
+                <li>
+                  <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Privacy Policy</a>
+                </li>
+            </ul>
+             
+          </div>
+        </div>
+
+
+       
+      </nav>
+          </div>
+          
+          
+        
+</section>
+
+<section class="landing-page">
+<div class="landing">
+  <h2>Integrated Procruitment</h2>
+<p>Automation, intelligent, and technology-driven procurement <br> platform to optimize your procurement process.</p>
+</div>
+<div class="video">
+<div></div>
+ <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+   <div class="relative">
+     <iframe  src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+   </div>  
+ </div>
+</div>
+</div>
+
+
+<div class="sub-button">        
+<button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+Request demo
+</button>
+<button type="button" class="text-black bg-white hover:text-blue-700  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+contact us
+<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+</svg>
+</button>
+
+<div id="menu" class="hidden absolute bg-white w-full shadow-lg md:hidden">
+<ul class="flex flex-col font-medium p-4 md:p-10 mt-4 border  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md: dark:bg-white md:dark:bg-white" >
+<li>
+<a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+</li>
+<li>
+<a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About us</a>
+</li>
+<li>
+<a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Features</a>
+</li>
+<li>
+<a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Industries</a>
+</li>
+<li>
+<a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Customer story</a>
+</li>
+<li>
+  <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+</li>
+<li>
+  <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Privacy Policy</a>
+</li>
+</ul>
+
+</div>
+
+</section>
+
+<section class="request-iproc">
+ <div class="heading">
+      <h2>Trusted by more <span> 100+ </span>   companies </h2>
+  </div>
+
+  <div class="logos">
+    <div class="logos-slide">
+         <!-- <----Section Bumnd----->
+       <li class="brand-logo"><img src="IMG/iproc-client-vector/bumnd/1.jpg" alt=""></li>
+       <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/10.jpg" alt=""></li>
+        <li class="brand-logo">     <img src="IMG/iproc-client-vector/bumnd/11.jpg" alt=""></li>
+          <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/12.jpg" alt=""></li>
+            <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/13.jpg" alt=""></li>
+              <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/14.jpg" alt=""></li>
+                <li class="brand-logo">    <img src="IMG/iproc-client-vector/bumnd/15.jpg" alt=""></li>
+                  <li class="brand-logo">  <img src="IMG/iproc-client-vector/bumnd/16.jpg" alt=""></li>
+                    <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/17.jpg" alt=""></li>
+                      <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/18.jpg" alt=""></li>
+                        <li class="brand-logo">    <img src="IMG/iproc-client-vector/bumnd/19.jpg" alt=""></li>
+                          <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/2.jpg" alt=""></li>
+                            <li class="brand-logo">  <img src="IMG/iproc-client-vector/bumnd/20.jpg" alt=""></li>
+                              <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/21.jpg" alt=""></li>
+                                <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/22.jpg" alt=""></li>
+                                  <li class="brand-logo"> <img src="IMG/iproc-client-vector/bumnd/23.jpg" alt=""></li>
+                                    <li class="brand-logo">  <img src="IMG/iproc-client-vector/bumnd/24.jpg" alt=""></li>
+                                      <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/25.jpg" alt=""></li>
+                                        <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/26.jpg" alt=""></li>
+                                          <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/27.jpg" alt=""></li>
+                                            <li class="brand-logo">  <img src="IMG/iproc-client-vector/bumnd/28.jpg" alt=""></li>
+                                              <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/29.jpg" alt=""></li>
+                                                <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/30.jpg" alt=""></li>
+                                                  <li class="brand-logo">   <img src="IMG/iproc-client-vector/bumnd/31.jpg" alt=""></li>
+                                                    <li class="brand-logo">    <img src="IMG/iproc-client-vector/bumnd/3.jpg" alt=""></li>
+                                                      <li class="brand-logo">         <img src="IMG/iproc-client-vector/bumnd/4.jpg" alt=""></li>
+                                                        <li class="brand-logo">        <img src="IMG/iproc-client-vector/bumnd/5.jpg" alt=""></li>
+                                                          <li class="brand-logo">        <img src="IMG/iproc-client-vector/bumnd/6.jpg" alt=""></li>
+                                                            <li class="brand-logo">         <img src="IMG/iproc-client-vector/bumnd/7.jpg" alt=""></li>
+                                                              <li class="brand-logo">         <img src="IMG/iproc-client-vector/bumnd/8.jpg" alt=""></li>
+                                                                <li class="brand-logo">  <img src="IMG/iproc-client-vector/bumnd/9.jpg" alt=""></li>
+         <!-- <----Section energi dan pertambangan----->
+         <li class="brand-logo">   <img src="IMG/iproc-client-vector/energi dan pertambangan/1.jpg" alt=""></li>
+          <li class="brand-logo"> <img src="IMG/iproc-client-vector/energi dan pertambangan/2.jpg" alt=""></li>
+            <li class="brand-logo"> <img src="IMG/iproc-client-vector/energi dan pertambangan/3.jpg" alt=""></li>
+              <li class="brand-logo"> <img src="IMG/iproc-client-vector/energi dan pertambangan/4.jpg" alt=""></li>
+                <li class="brand-logo">    <img src="IMG/iproc-client-vector/energi dan pertambangan/5.jpg" alt=""></li>
+                  <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/6.jpg" alt=""></li>
+                    <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/7.jpg" alt=""></li>
+                      <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/8.jpg" alt=""></li>
+                        <li class="brand-logo">    <img src="IMG/iproc-client-vector/energi dan pertambangan/9.jpg" alt=""></li>
+                          <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/10.jpg" alt=""></li>
+                            <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/11.jpg" alt=""></li>
+                              <li class="brand-logo">    <img src="IMG/iproc-client-vector/energi dan pertambangan/12.jpg" alt=""></li>
+                                <li class="brand-logo">    <img src="IMG/iproc-client-vector/energi dan pertambangan/13.jpg" alt=""></li>
+                                  <li class="brand-logo">    <img src="IMG/iproc-client-vector/energi dan pertambangan/14.jpg" alt=""></li>
+                                    <li class="brand-logo">   <img src="IMG/iproc-client-vector/energi dan pertambangan/15.jpg" alt=""></li>
+                                      <li class="brand-logo">    <img src="IMG/iproc-client-vector/energi dan pertambangan/16.jpg" alt=""></li>
+                                        <li class="brand-logo">    <img src="IMG/iproc-client-vector/energi dan pertambangan/17.jpg" alt=""></li>
+                                          <li class="brand-logo">      <img src="IMG/iproc-client-vector/energi dan pertambangan/18.jpg" alt=""></li>
+                                            <li class="brand-logo">      <img src="IMG/iproc-client-vector/energi dan pertambangan/19.jpg" alt=""></li>
+                                              <li class="brand-logo">      <img src="IMG/iproc-client-vector/energi dan pertambangan/20.jpg" alt=""></li>
+                                                <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/21.jpg" alt=""></li>
+                                                  <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/22.jpg" alt=""></li>
+                                                    <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/23.jpg" alt=""></li>
+                                                      <li class="brand-logo">     <img src="IMG/iproc-client-vector/energi dan pertambangan/24.jpg" alt=""></li>
+                                                        <li class="brand-logo">      <img src="IMG/iproc-client-vector/energi dan pertambangan/25.jpg" alt=""></li>
+           <!-- <----Section keuangan dan bank----->
+           <li class="brand-logo">    <img src="IMG/iproc-client-vector/keuangan dan bank/1.jpg" alt=""></li>
+            <li class="brand-logo">       <img src="IMG/iproc-client-vector/keuangan dan bank/2.jpg" alt=""></li>
+              <li class="brand-logo">       <img src="IMG/iproc-client-vector/keuangan dan bank/3.jpg" alt=""></li>
+                <li class="brand-logo">       <img src="IMG/iproc-client-vector/keuangan dan bank/4.jpg" alt=""></li>
+                  <li class="brand-logo">      <img src="IMG/iproc-client-vector/keuangan dan bank/5.jpg" alt=""></li>
+                    <li class="brand-logo">       <img src="IMG/iproc-client-vector/keuangan dan bank/6.jpg" alt=""></li>
+                      <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/7.jpg" alt=""></li>
+                        <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/8.jpg" alt=""></li>
+                          <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/9.jpg" alt=""></li>
+                            <li class="brand-logo">         <img src="IMG/iproc-client-vector/keuangan dan bank/10.jpg" alt=""></li>
+                              <li class="brand-logo">         <img src="IMG/iproc-client-vector/keuangan dan bank/11.jpg" alt=""></li>
+                                <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/12.jpg" alt=""></li>
+                                  <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/13.jpg" alt=""></li>
+                                    <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/14.jpg" alt=""></li>
+                                      <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/15.jpg" alt=""></li>
+                                        <li class="brand-logo">        <img src="IMG/iproc-client-vector/keuangan dan bank/16.jpg" alt=""></li>
+                                          <li class="brand-logo">         <img src="IMG/iproc-client-vector/keuangan dan bank/17.jpg" alt=""></li>
+           <!-- <----Section manufaktur dan kontruksi----->
+           <li class="brand-logo">       <img src="IMG/iproc-client-vector/manufaktur dan konstruksi/14.jpg" alt=""></li>
+            <li class="brand-logo">        <img src="img/iproc-client-vector/manufaktur dan konstruksi/15.jpg" alt=""></li>
+              <li class="brand-logo">         <img src="IMG/iproc-client-vector/manufaktur dan konstruksi/16.jpg" alt=""></li>
+                <li class="brand-logo">         <img src="IMG/iproc-client-vector/manufaktur dan konstruksi/17.jpg" alt=""></li>
+                  <li class="brand-logo">         <img src="IMG/iproc-client-vector/manufaktur dan konstruksi/18.jpg" alt=""></li>
+                    <li class="brand-logo">         <img src="IMG/iproc-client-vector/manufaktur dan konstruksi/19.jpg" alt=""></li>
+           <!-- <----Section Pemerintah----->
+           <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (1).png" alt=""></li>
+            <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (2).png" alt=""></li>
+              <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (3).png" alt=""></li>
+                <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (4).png" alt=""></li>
+                  <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (5).png" alt=""></li>
+                    <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (6).png" alt=""></li>
+                      <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (7).png" alt=""></li>
+                        <li class="brand-logo">         <img src="IMG/iproc-client-vector/pemerintah/government (8).png" alt=""></li>
+                          <li class="brand-logo">         <img src="IMG/iproc-client-vector/pemerintah/government (9).png" alt=""></li>
+                            <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (10).png" alt=""></li>
+                              <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (11).png" alt=""></li>
+                                <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (12).png" alt=""></li>
+                                  <li class="brand-logo">         <img src="IMG/iproc-client-vector/pemerintah/government (13).png" alt=""></li>
+                                    <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (14).png" alt=""></li>
+                                      <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (15).png" alt=""></li>
+                                        <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (16).png" alt=""></li>
+                                          <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (17).png" alt=""></li>
+                                            <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (18).png" alt=""></li>
+                                              <li class="brand-logo">        <img src="IMG/iproc-client-vector/pemerintah/government (19).png" alt=""></li>
+           <!-- <----Section Telekomunisasi, Transportasi, dan Hiburan ----->
+           <li class="brand-logo">        <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/1.jpg" alt=""></li>
+            <li class="brand-logo">       <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/2.jpg" alt=""></li>
+              <li class="brand-logo">         <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/3.jpg" alt=""></li>
+                <li class="brand-logo">         <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/4.jpg" alt=""></li>
+                  <li class="brand-logo">        <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/5.jpg" alt=""></li>
+                    <li class="brand-logo">        <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/6.jpg" alt=""></li>
+                      <li class="brand-logo">         <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/7.jpg" alt=""></li>
+                        <li class="brand-logo">         <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/8.jpg" alt=""></li>
+                          <li class="brand-logo">        <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/9.jpg" alt=""></li>
+                            <li class="brand-logo">         <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/10.jpg" alt=""></li>
+                              <li class="brand-logo">         <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/11.jpg" alt=""></li>
+                                <li class="brand-logo">        <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/20.jpg" alt=""></li>
+                                  <li class="brand-logo">         <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/21.jpg" alt=""></li>
+                                    <li class="brand-logo">        <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/22.jpg" alt=""></li>
+                                      <li class="brand-logo">       <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/23.jpg" alt=""></li>
+                                        <li class="brand-logo">       <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/24.jpg" alt=""></li>
+                                          <li class="brand-logo">       <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/25.jpg" alt=""></li>
+                                            <li class="brand-logo">        <img src="IMG/iproc-client-vector/telekomunikasi, transportasi, dan hiburan/26.jpg" alt=""></li>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="feature">
+<img src="IMG/tablet-iproc.png" alt="">
+<div class="header">
+  <h3>What is iProc?</h3>
+  <p>IProc is a Procurement 4.0 platform that assists Procurement<br>
+    and Supply Chain Management departments in managing <br>
+    procurement, contracts, inventory, and assets. </p>
+  <p>
+    The combination of iProc and Pengadaan.com will maximize <br>
+    the digital potential of procurement and accelerate the <br>
+     company's digital transformation.
+  </p>
+</div>
+</section>   
+
+<section class="count-up">
+<div class="header-2">
+<h3>Effortless solutions, impactful outcomes</h3>
+</div>
+
+<div class="counter-up">
+<div class="count1">
+    <div class="counter">
+  <div class="count">
+    <h1><span class="num" data-val="16">00</span>%+</h1>
+    <h3> Cost Saving </h3>
+  </div>
+  <div class="count">
+    <h1><span class="num" data-val="35">00</span>%+</h1>
+    <h3> Time Reduction </h3>
+  </div>
+  <div class="count">
+    <h1><span class="num" data-val="1920">0000</span>Billion+</h1>
+    <h3> Saving Value / Year </h3>
+  </div>
+
+</div>
+</div>
+
+<div class="counter">
+  <div class="count">
+    <h1><span class="num" data-val="12300">00000</span>Billion+</h1>
+    <h3> Post Saving / Year </h3>
+  </div>
+  <div class="count">
+    <div class="counts5">
+      <h1><span class="num" data-val="8000">0000</span>+</h1>
+    <h3> Users </h3>
+    </div>
+    
+  </div>
+  <div class="count">
+    <h1><span class="num" data-val="20000">00000</span>+</h1>
+    <h3> Eligible Vendors </h3>
+  </div>
+
+</div>
+<div class="count3">
+   <div class="counter">
+  <div class="count">
+    <h1><span class="num" data-val="25000">00000</span>+</h1>
+    <h3> PO/Year </h3>
+  </div>
+  <div class="count">
+    <h1><span class="num" data-val="210000">000000</span>+</h1>
+    <h3> Transaction/Year </h3>
+  </div>
+  <div class="count">
+    <h1><span class="num" data-val="2000">0000</span>+</h1>
+    <h3> Procruitment Points </h3>
+  </div>
+
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+</section>
+
+
+
+
+
+<section class="feature2">
+<div class="header-feature2">
+  <h2>Value-Added Solutions from iProc</h2>
+</div>
+
+
+<div class="card-container">
+<div class="card">
+<img src="IMG/icon/1.png" alt="">
+<div class="content">
+<h3>Streamlined <br> Procurement Process</h3>
+<p>Seamlessly manage every aspect of <br> procurement, from vendor selection to <br> purchase orders. With our smart <br> automation, you can save your valuable <br> time and improve the efficiency of your <br> procurement needs.</p>
+</div>
+</div>
+<div class="card">
+<img src="IMG/icon/2.png" alt="">
+<div class="content">
+<h3>The Core Infrastructure for Procurement 4.0</h3>
+<p>With iProc, you'll experience unparalleled efficiency, transparency, and control, empowering your organization to stay ahead in a rapidly evolving digital landscape. Embrace the core infrastructure that not only supports but propels your journey into Procurement 4.0, where every decision is informed, every transaction is optimized, and every process is future-ready.</p>
+</div>
+</div>
+<div class="card">
+<img src="IMG/icon/3.png" alt="">
+<div class="content">
+<h3>Real-Time Visibility</h3>
+<p>From requisitions to approvals, RFQs to purchase orders, our platform allows you to track and monitor each step of your procurement workflow in real time. Get a clear picture of your organization’s spend and make informed sourcing decisions.</p>
+</div>
+</div>
+<div class="card-2">
+<div class="card">
+<img src="IMG/icon/4.png" alt="">
+<div class="content">
+<h3>Centralized Data and Documentation</h3>
+<p>Our platform acts as a centralized hub, storing all procurement-related data and documentation. Effortlessly retrieve and access vital information, guaranteeing precision, compliance, and streamlined audit processes.</p>
+</div>
+</div>
+<div class="card">
+<img src="IMG/icon/5.png" alt="">
+<div class="content">
+<h3>Strategic Sourcing</h3>
+<p>Our platform utilizes advanced algorithms to automate various aspects of the procurement process. This involves in-depth analysis of business needs, identification and selection of the right vendors, and negotiation of favorable contracts, enabling strategic procurement processes to be carried out.</p>
+</div>
+</div>
+<div class="card">
+<img src="IMG/icon/6.png" alt="">
+<div class="content">
+<h3>Establishing The Principles of GRC (Governance, Risk, and Compliance)</h3>
+<p>By embracing these principles, businesses can proactively manage risks, maintain compliance with laws and regulations, and enhance governance practices, This commitment fosters sustainable growth, minimizes potential disruptions, and paves the way for long-term success.</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="imagee">
+<img src="IMG/background 2.png" alt="">
+</div>
+
+
+</section>
+
+<section class="event-schedule">
+<div class="header-event">
+<h1>Our Key Capabilities</h1>
+</div>
+<div class="tab-buttons">
+<button class="tab-button" onclick="showContent('commodity')">Commodity Management</button>
+<button class="tab-button" onclick="showContent('vendor')">Vendor Management</button>
+<button class="tab-button" onclick="showContent('purchasing')">Smart Purchasing</button>
+<button class="tab-button" onclick="showContent('sourcing')">Smart Sourcing</button>
+<div class="tab-button-2">
+<button class="tab-button" onclick="showContent('contract')">Smart Contract</button>
+<button class="tab-button" onclick="showContent('invoice')">Smart Invoice & Payment</button>
+<button class="tab-button" onclick="showContent('report')">Report</button>
+</div>
+</div>
+
+<div class="contents" id="commodity">
+<img src="IMG/event-schedule/Commodity Management.png" alt="Commodity Management" class="content-image">
+<h2>Commodity Management</h2>
+<p>Effortlessly manage your goods and materials. <br> Categorize, standardize, and optimize your <br> inventory to ensure that your operations run <br> smoothly and efficiently.</p>
+</div>
+
+<div class="contents" id="vendor" style="display: none;">
+<img src="IMG/event-schedule/Vendor Management.png" alt="Vendor Management" class="content-image">
+<h2>Vendor Management</h2>
+<p>iProc empowers you to centralize and automate all <br> your vendor interactions. Evaluate performance, <br> maintain crucial vendor relationships, and ensure <br> compliance—all in one place.</p>
+</div>
+
+<div class="contents" id="purchasing" style="display: none;">
+<img src="IMG/event-schedule/Smart Purchasing.png" alt="Smart Purchasing" class="content-image">
+<h2>Smart Purchasing</h2>
+<p>Simplify your purchasing process with iProc’s smart <br> purchasing. Automate orders, approvals, and <br> tracking to make informed buying decisions that <br> keep your business moving forward.</p>
+</div>
+
+<div class="contents" id="sourcing" style="display: none;">
+<img src="IMG/event-schedule/Smart Sourching.png" alt="Smart Sourcing" class="content-image">
+<h2>Smart Sourcing</h2>
+<p>iProc uses cutting-edge data analytics to identify <br> the best suppliers and optimize costs. Whether it’s <br> e-auctions or negotiations, iProc ensures you get <br> the best deals every time.</p>
+</div>
+
+<div class="contents" id="contract" style="display: none;">
+<img src="IMG/event-schedule/Smart Contract.png" alt="Smart Contract" class="content-image">
+<h2>Smart Contract</h2>
+<p>Automate contract creation, execution, and <br> monitoring with iProc’s smart contract feature. Stay <br> compliant, reduce risk, and streamline your contract <br> management like never before.</p>
+</div>
+
+<div class="contents" id="invoice" style="display: none;">
+<img src="IMG/event-schedule/Smart Invoce & Payment.png" alt="Smart Invoice & Payment" class="content-image">
+<h2>Smart Invoice & Payment</h2>
+<p>Automate everything from invoice generation to <br> payment approvals, ensuring accuracy and <br> accelerating your payment cycles</p>
+</div>
+<div class="contents" id="report" style="display: none;">
+<img src="IMG/event-schedule/Report.png" alt="Smart Invoice & Payment" class="content-image">
+<h2>Report</h2>
+<p>Get the insights you need with iProc’s <br> comprehensive reporting and analytics. Make <br> informed decisions, spot trends, and ensure <br> transparency and accountability across your <br> procurement activities.</p>
+</div>
+
+</div>
+
+
+
+</section>
+
+<section class="Procruitment">
+<div class="header-procruitment">
+<h2>iProc : Leading the Way into</h2>
+<h3>with Intelligent Automation.</h3>
+<img src="IMG/logo-proc4 2.png" alt="">
+
+</div>
+
+<div class="img-procruitment">
+<img src="IMG/Picture11.png" alt="">
+<img src="IMG/Picture12.png" alt="">
+</div>
+
+</section>
+
+<section class="testimonial">
+<div class="header-testimonial">
+<h2>Proven Track Record</h2>
+<h3>(Hear it From Our Clients)</h3>
+</div>
+
+<div class="blockquote">
+<blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
+<svg class="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+    <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
+</svg>
+<p>It was a great experience!</p>
+<div class="content-blockquote">
+  <h2>Flowbite is just awesome. It contains tons of predesigned components and pages starting <br> from login screen to complex dashboard. Perfect choice for your next SaaS application.</h2>
+  <h2>There is absolutely no doubt in my mind that without Flowbite, I would not have been able to <br> make the jump to Ueno, a digital agency I started in 2014. The work I got through Flowbite <br> made it possible for me to have something to build on. We now have about 45 people on our <br> team, a lot of whom we found and recruited through Flowbite.</h2>
+</div>
+
+</blockquote>
+</div>
+
+<div class="testimonial-section">
+<div class="user-testimonial">
+<div class="user">
+<img src="IMG/avatar/Avatar1.png" alt="Avatar" class="avatar">
+<div class="testimonial-text">
+    <h4>Micheal Gough</h4>
+    <p>Web developer at Google</p>
+</div>
+</div>
+</div>
+
+<div class="user-testimonial">
+<img src="IMG/avatar/Avatar2.png" alt="Avatar" class="avatar">
+<div class="testimonial-text">
+    <h4>Bonnie Green</h4>
+    <p>CEO at Facebook</p>
+</div>
+</div>
+
+<div class="user-testimonial">
+<img src="IMG/avatar/Avatar3.png" alt="Avatar" class="avatar">
+<div class="testimonial-text">
+    <h4>Lana Byrd</h4>
+    <p>CTO at Microsoft</p>
+</div>
+</div>
+
+<div class="view-more">
+<a href="#">View other 20 testimonials →</a>
+</div>
+</div>
+</section>
+
+<section class="sector">
+<div class="header-sector">
+<h2>Industry Specific Use-Cases</h2>
+<p>Discover how effortlessly iProc integrates with<br> the workflows of various industries. </p>
+</div>
+<div class="content-sector">
+<div class="container-box-sector-1">
+<div class="box-sector">
+<div class="img-sector">
+  <img src="IMG/img-sector/Energy & Mining.png" alt="">
+</div>
+<div class="text-sector">
+  <h3>Energy & Mining</h3>
+</div>
+
+</div>
+<div class="box-sector">
+<div class="img-sector-2">
+  <img src="IMG/img-sector/Oil & Gas.png" alt="">
+</div>
+<div class="text-sector-2">
+  <h3>Oil & Gas</h3>
+</div>
+
+</div>
+<div class="box-sector">
+<div class="img-sector-3">
+   <img src="IMG/img-sector/Pharmateutical.png" alt="">
+</div>
+<div class="text-sector-3">
+<h3>Pharmateutical</h3>
+</div>
+
+</div>
+</div>
+<div class="container-box-sector-2">
+<div class="box-sector">
+<div class="img-sector-4">
+<img src="IMG/img-sector/EPC Telecommunication.png" alt="">
+</div>
+<div class="text-sector-4">
+   <h3>EPC Telecommunication</h3>
+</div>
+
+</div>
+<div class="box-sector">
+  <div class="img-sector-5">
+<img src="IMG/img-sector/Transportation.png" alt="">
+  </div>
+ <div class="text-sector-5">
+  <h3>Transportation</h3>
+ </div>
+  
+</div>
+<div class="box-sector">
+  <div class="img-sector-6">
+<img src="IMG/img-sector/Financial Services.png" alt="">
+  </div>
+ <div class="text-sector-6">
+   <h3>Financial Services</h3>
+ </div>
+ 
+</div>
+</div>
+<div class="container-box-sector-3">
+<div class="box-sector">
+<div class="img-sector-7">
+   <img src="IMG/img-sector/Public Sector.png" alt="">
+</div>
+<div class="text-sector-7">
+ <h3>Public Sector</h3>
+</div>
+
+</div>
+<div class="box-sector">
+<div class="img-sector-8">
+<img src="IMG/img-sector/Entertaiment.png" alt="">
+</div>
+<div class="text-sector-8">
+<h3>Entertaiment</h3>
+</div>
+
+</div>
+</div>
+<div class="bg-sector">
+<img src="IMG/background 3.png" alt="">
+
+</div>
+
+
+</div>
+
+
+</section>
+
+<section class="footer-iproc">
+<footer class="bg-white dark:bg-gray-900">
+<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+  <div class="md:flex md:justify-between">
+    <div class="mb-6 md:mb-0">
+        <a href="https://flowbite.com/" class="flex items-center">
+            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        </a>
+    </div>
+    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                </li>
+                <li>
+                    <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+<div class="sm:flex sm:items-center sm:justify-between">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+    </span>
+    <div class="flex mt-4 sm:justify-center sm:mt-0">
+        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                  <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+              </svg>
+            <span class="sr-only">Facebook page</span>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                  <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
+              </svg>
+            <span class="sr-only">Discord community</span>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+              <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+          </svg>
+            <span class="sr-only">Twitter page</span>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+            </svg>
+            <span class="sr-only">GitHub account</span>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
+          </svg>
+            <span class="sr-only">Dribbble account</span>
+        </a>
+    </div>
+</div>
+</div>
+</footer>
+</section>
+
+
+

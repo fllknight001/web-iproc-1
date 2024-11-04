@@ -1,0 +1,589 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+:root {
+  --total-brand : 116;
+  --logo-width: 18rem;
+  --total-logo-width: calc(var(--total-brand) * var(--logo-width) * 2 );
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Atur align ke center */
+    justify-content: space-between; /* Atur distribusi jarak */
+    width: 1200px;
+    overflow: hidden; /* Sembunyikan konten yang melampaui */
+    flex-wrap: wrap;
+
+  }
+
+  .sub-navbar {
+    position: absolute;
+    left: 220px;
+    top: 20px;
+    white-space: nowrap;
+  }
+  /* Tambahkan ini ke CSS atau style inline jika diperlukan */
+.nav-link.active {
+  @apply text-blue-500 font-bold border-b-2 border-blue-500;
+}
+
+  .languege {
+    position: absolute;
+    top: 20px;
+    left: 1150px;
+  }
+
+  .navbar-button {
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+    width: 160px;
+  }
+  .logo-navbar {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+  }
+
+  .hero-header {
+    padding: 6vw;
+    margin: 10px 0;
+    position: absolute;
+    top: 250px;
+    
+  }
+  .hero-header p {
+    padding: 5px;
+  }
+  .hero-header .hero-button {
+    padding: 5px;
+  }
+  .hero-video {
+    position: absolute;
+    left: 920px;
+    top: 200px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .hero-video iframe {
+    width: 420px;
+    height: 300px;
+  }
+
+  .hero-image img {
+    position: absolute;
+    width: 2000px;
+    left: -1px;
+    height: 700px;
+  }
+
+  .request-iproc {
+    position: absolute;
+    top: 800px;
+    left: 500px;
+  }
+  .header-request {
+    position: absolute;
+    top: -5px;
+    left: -90px;
+    white-space: nowrap;
+  }
+
+  .logo-slider {
+    position: absolute;
+    left: -520px;
+    top: 45px;
+  }
+  .slider {
+    width: 100vw;
+    height: 12rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .slider::before,
+  .slider::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: var(--logo-width);
+  }
+  .slider::before{
+    left: 0;
+    background: linear-gradient(to right, #fff 0%, #fff0 100%);
+  }
+  .slider::after{
+    right: 0;
+    background: linear-gradient(to left, #fff 0%, #fff0 100%);
+  }
+  .slider ul.brands {
+    list-style: none;
+    width: var(--total-logo-width)  ;
+    display: flex;
+    animation: slideLeft 150s linear infinite;
+  }
+  ul.brands li.brand-logo {
+    width: var(--logo-width);
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 3rem ;
+  }
+
+  @keyframes slideLeft {
+   100% {
+    transform: translateX(calc(-100% /2));
+   }
+  }
+
+  .feature {
+    position: absolute;
+    top: 1150px;
+    background: linear-gradient(to bottom, #c1e8ff00,#C1E8FF );
+    width: 1580px;
+ 
+  }
+  .image-feature {
+    padding: 0 10vw;
+  }
+  .image-feature img {
+    width: 500px;
+  }
+  .header-feature {
+    position: absolute;
+    left: 800px;
+    top: 45px;
+  }
+  .header-feature p {
+    white-space: nowrap;
+    line-height: 1.2;
+    padding: 10px;
+  }
+  .header-count {
+    position: absolute;
+    left: 430px;
+    top: 110px;
+    white-space: nowrap;
+  }
+  .count-up {
+    background: linear-gradient(to bottom, #C1E8FF , #1e429f)  ;
+    width: 1590px;
+    overflow: hidden;
+    height: 720px;
+    position: absolute;
+    top: 1570px;
+    left: -10px;
+    padding: 8vw;
+  }
+
+  .counter-up {
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    padding: 0 1vw;
+  }
+  
+  .count1 .count{
+    padding: 8px 76px;
+  }
+  
+  .count3 .count {
+    padding: 8px 68px;
+  }
+  
+  .counter {
+    white-space: nowrap;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    background: white;
+    margin: 40px;
+    width: 840px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  
+  .count {
+    padding: 8px 55px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .count h1 {
+    text-align: center;
+    color: #ffa412;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 2px;
+  }
+  
+  .count h3 {
+    color: gray;
+  }
+  
+  .count h1 span {
+    color: #ffa412;
+    font-size: 30px;
+    font-weight: 800;
+  }
+ .feature2 {
+  position: absolute;
+  top: 2290px;
+ }
+  
+
+
+.feature2 .imagee img {
+  height: 1100px;
+  width: 1850px;
+}
+
+.card-container {
+  display: flex;
+  position: absolute;
+  left: 120px;
+  top: 180px;
+}
+.card-2 {
+  position: absolute;
+  top: 380px;
+  display: flex;
+
+}
+
+.card {
+  padding: 25px 30px;
+  background: white;
+  width: 380px;
+  height: 360px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card img {
+  position: relative;
+  left: -20px;
+  top: 5px;
+  padding: 10px;
+}
+.card .content {
+  position: relative;
+  left: -10px;
+}
+.header-feature2 {
+  position: absolute;
+  top: 126px;
+  left: 140px;
+}
+.event-schedule {
+  position: absolute;
+  left: 240px;
+  top: 3300px;
+}
+.tabs-2 {
+  position: absolute;
+  top: 0px;
+  left: 680px;
+  white-space: nowrap;
+}
+.tabs-0 {
+  position: absolute;
+  white-space: nowrap;
+  left: -70px;
+}
+.content-event {
+  position: relative;
+  top: 40px;
+}
+.header-event {
+  position: relative;
+  top: 30px;
+}
+
+
+.commodity img {
+  width: 1500px;
+}
+.vendor img {
+  width: 1200px;
+}
+.purchasing img {
+  width: 1700px;
+}
+.sourching img {
+  width: 1200px;
+}
+.contract img {
+  width: 1400px;
+}
+.invoice img {
+  width: 1100px;
+}.report img {
+  width: 1700px;
+}
+
+.procruitment {
+  position: absolute;
+  padding: 4vw;
+  top: 3800px;
+  width: 1600px;
+  background: linear-gradient(to bottom, #C1E8FF , #005eb500)  ;
+}
+
+.header-procruitment {
+  position: absolute;
+  white-space: nowrap;
+  left: 480px
+}
+.sub-font-procruitment {
+  position: absolute;
+  left: 100px;
+}
+
+.image-procruitment img {
+  width: 150px;
+  position: absolute;
+  left: 400px;
+  top: -20px;
+}
+.content-procruitment {
+  display: flex;
+  margin: 23px;
+  padding: 5vw 8vw;
+}
+.content-procruitment img {
+  margin: 0 2vw;
+}
+.testimonial {
+  position: absolute;
+  top: 4360px;
+  left: 280px;
+}
+.sector {
+  position: absolute;
+  top: 5000px;
+}
+.bg-sector img {
+  width: 1583px;
+  position: relative;
+  top: -120px;
+}
+
+.box-sector img {
+  width: 300px;
+  display: flex;
+}
+
+.container-box-sector-1 {
+  display: flex;
+  position: absolute;
+  top: 120px;
+  left: 260px;
+}
+
+.container-box-sector-2 {
+  display: flex;
+  position: absolute;
+  top: 380px;
+  left: 260px;
+}
+
+.container-box-sector-3 {
+  display: flex;
+  position: absolute;
+  top: 640px;
+  left: 260px;
+}
+
+.text-sector{
+position: relative;
+top: -50px;
+left: 30px;
+white-space: nowrap;
+}
+.header-sector {
+  position: absolute;
+  top: 30px;
+  left: 400px;
+}
+
+.award {
+  position: absolute;
+  margin-top: 10px;
+  top: 6000px;
+  left: 330px;
+  padding: 30px 0;
+}
+.award-content {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+.trophy-icon img {
+  width: 230px;
+  height: auto;
+  position: relative;
+  left: 80px;
+}
+
+.award-list {
+  margin-left: 50px;
+}
+
+.award-item {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 35px 15px;
+  margin-top: 10px;
+  max-width: 450px;
+  white-space: nowrap;
+  position: relative;
+  left: 60px;
+}
+
+.award-item p {
+  position: relative;
+  top: 15px;
+  font-weight: bold;
+  left: -80px;
+}
+
+.award-label {
+  background-color: #e0e0ff;
+  color: #1e429f;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  position: relative;
+  top: -20px;
+}
+
+.container-transform {
+  position: absolute;
+  top: 6600px;
+}
+.image-t-procruitment {
+  position: relative;
+  top: -150px;
+}
+.image-t-procruitment img {
+  width: 1580px;
+}
+
+.button-t-procruitment {
+  position: absolute;
+  top: 20px;
+  left: 630px;
+  white-space: nowrap;
+}
+.button-t-procruitment #button p {
+  font-size: 15px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+#button {
+  padding: 25px 80px;
+  font-weight: bold;
+  box-shadow: white 0px 1px 4px, white 0px 0px 0px 3px;
+}
+.button-svg {
+  position: absolute;
+  left: 115px;
+  top: 15px;
+}
+
+.content-t-procruitment {
+  position: absolute;
+  left: 380px;
+  top: -50px;
+}
+.section-footer {
+  position: absolute;
+  top: 6740px;
+  background-color: #1e429f;
+  width: 1580px;
+  padding: 4vw;
+  height: 440px;
+}
+.content-header {
+  padding: 50px 0;
+}
+
+.header-footer a img {
+ width: 145px;
+}
+.contact-footer {
+  position: absolute;
+  left: 800px;
+  top: 60px;
+}
+.address-footer {
+  position: absolute;
+  left: 1000px;
+  top: 60px;
+}
+.map-footer {
+  position: absolute;
+  left: 1000px;
+  top: 220px;
+}
+.end-footer {
+  position: absolute;
+  top: 400px;
+}
+.icon-footer {
+  position: absolute;
+  left: 1100px;
+  color: white;
+}
+.line-footer {
+  background-color: white;
+  height: 2px;
+  position: absolute;
+  top: -15px;
+  width: 1300px;
+}
+
+
+
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+
+ html, body {
+  overflow-x: hidden;
+}
+}
+
+
+  
+  
+
+
+
+
+
